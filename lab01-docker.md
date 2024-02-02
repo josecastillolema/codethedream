@@ -189,3 +189,12 @@
    $ curl localhost:5000
    Benvido a API FIAP!
    ```
+
+## Building images
+
+17. Clone this repository:
+   ```
+   $ git clone https://github.com/josecastillolema/codethedream
+   ```
+
+18. Navigate to the D
