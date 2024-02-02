@@ -197,4 +197,48 @@
    $ git clone https://github.com/josecastillolema/codethedream
    ```
 
-18. Navigate to the D
+18. Navigate to the Dockerfile directory:
+   ```
+   $ cd codethedream/lab01-docker
+   ```
+
+19. "Build" (create an image from) the Containerfile:
+   ```
+   $ docker build . -t custom-api
+   ```
+
+20. Check the new image in the local image repository:
+   ```
+   $ docker images
+   custom-api                                  latest             4e49dbabacf2   About an hour ago   907MB
+   ```
+
+## Image upload to Dockerhub
+
+21. Create a free account on [Dockerhub](https://hub.docker.com/)
+
+22. Log in to the account from the terminal with the newly created user:
+    ```
+    $ docker login
+    Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
+    Username: josecastillolema
+    Password: 
+    WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
+    Configure a credential helper to remove this warning. See
+    https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+    Login Succeeded
+    ```
+
+24. Tag the image. The image name must be `username/name of the image`:
+    ```
+    $ docker tag custom-api josecastillolema/custom-api
+    ```
+    
+25. Fazer o *upload* (`push`) da imagem:
+    ```
+    $ docker push josecastillolema/custom-api
+    ```
+
+26. Check the image on the DockerHub portal:
+    ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/mob/cloud/img/docker0.png)
