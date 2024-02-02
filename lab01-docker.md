@@ -24,9 +24,9 @@
 - We will be using the Docker image `josecastillolema/api` hosted on [Docker Hub](https://hub.docker.com/r/josecastillolema/api) during this class.
 
   The image `josecastillolema/api` cointains the [following files](lab01-docker):
-   - [**`api.py`**](lab01-docker/api.py): Uma simples API escrita em Python que usa a biblioteca [Flask](https://flask.palletsprojects.com/en/1.1.x/).
-   - [**`requirements.txt`**](lab01-docker/requirements.txt): As dependências da aplicação. Podem ser instaladas usando `pip`, o gestor de dependências do Python.
-   - [**`Dockerfile`**](lab01-docker/Dockerfile): O arquivo usado por `docker para criar a imagem
+   - [**`api.py`**](lab01-docker/api.py): A simple API written in Python that leverages the [Flask] library(https://flask.palletsprojects.com/en/1.1.x/).
+   - [**`requirements.txt`**](lab01-docker/requirements.txt): Application dependencies. They can be installed using `pip`, Python's dependency manager.
+   - [**`Dockerfile`**](lab01-docker/Dockerfile): ​The file used by `docker` to create the image.
  
 ## Docker images
 
