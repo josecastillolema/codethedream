@@ -1,6 +1,6 @@
 FROM python:2
 
-MAINTAINER Jose Castillo <profjose.lema@fiap.com.br>
+MAINTAINER Jose Castillo Lema <josecastillolema@gmail.com>
 
 ADD api.py requirements.txt /
 RUN pip install -r ./requirements.txt
