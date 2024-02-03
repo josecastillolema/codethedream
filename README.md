@@ -1,5 +1,7 @@
 # codethedream
 
+![Code the Dream](https://raw.githubusercontent.com/josecastillolema/codethedream/main/img/logo.png)
+
 Classes for [Code the Dream](https://codethedream.org/) Skill-IT workshops.
 
 
