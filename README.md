@@ -1,4 +1,4 @@
-# codethedream
+# Code the dream
 
 ![Code the Dream](https://raw.githubusercontent.com/josecastillolema/codethedream/main/img/logo.png)
 
