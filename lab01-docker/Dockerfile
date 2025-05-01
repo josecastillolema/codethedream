@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:3.11-slim
 
 MAINTAINER Jose Castillo Lema <josecastillolema@gmail.com>
 

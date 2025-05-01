@@ -26,11 +26,11 @@ def json_serial(obj):
 def teste():
     cursor = mysql.connect().cursor()
     cursor.execute("SELECT * from Aso")
-    print cursor, str(cursor)
+    print(cursor, str(cursor))
     r = [dict((cursor.description[i][0], value)
               for i, value in enumerate(row)) for row in cursor.fetchall()]
     json_string = json.dumps(r, default=json_serial)
-    print json_string
+    print(json_string)
     return "hola"
 
 @app.route("/")
